@@ -57,7 +57,7 @@ You should choose reliable hair systems that you can style, wear to work, the gy
 
 ## Champion Full French Lace
 
-Our ever-popular full French lace toupee for men offers you an undetectable look. Airy and lightweight, the **[Champion](https://www.lordhair.com/s7-stock-full-lace-hairpieces-for-men.html)** is also one of our more comfortable **[hairpieces for men](https://www.lordhair.com/mens-hair-systems/stock-hair-pieces.html).
+Our ever-popular full French lace toupee for men offers you an undetectable look. Airy and lightweight, the **[Champion](https://www.lordhair.com/s7-stock-full-lace-hairpieces-for-men.html)** is also one of our more comfortable **[hairpieces for men](https://www.lordhair.com/mens-hair-systems/stock-hair-pieces.html)**.
 
 ---
 
