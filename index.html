@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lordhair Blog — Hairstyles, Hair Systems & Care</title>
+  <meta name="description" content="Lordhair Blog: expert tips, product guides, and styling inspiration for hair systems, wigs and hair care. Stay confident, stylish and informed." />
+  <meta name="author" content="Lordhair" />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    :root{--accent:#2b6cb0;--muted:#6b7280;--card-bg:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;color:#111;background:#f7f7f9;line-height:1.5}
+    header{background:#fff;box-shadow:0 1px 6px rgba(12,12,15,0.06);position:sticky;top:0;z-index:50}
+    .container{max-width:1100px;margin:0 auto;padding:1rem}
+    .nav{display:flex;gap:1rem;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:.5rem;align-items:center;font-weight:700}
+    .brand img{height:36px;width:auto;border-radius:6px}
+    nav a{color:var(--muted);text-decoration:none;padding:.5rem .6rem;border-radius:6px}
+    nav a:hover{background:#eef2ff;color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1fr;gap:1rem;padding:2.4rem 0}
+    .hero-card{background:linear-gradient(180deg,#fff,#fbfdff);padding:2rem;border-radius:12px;box-shadow:0 6px 24px rgba(12,12,15,0.06)}
+    .hero h1{font-size:1.9rem;margin:0 0 .5rem}
+    .hero p{margin:0 0 1rem;color:var(--muted)}
+    .btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    .grid{display:grid;gap:1rem;margin-top:1rem}
+    @media(min-width:800px){ .hero{grid-template-columns:1fr 380px} .grid{grid-template-columns:repeat(3,1fr)} }
+    .card{background:var(--card-bg);padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(12,12,15,0.04)}
+    .card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    .meta{font-size:.88rem;color:var(--muted);margin-top:.6rem}
+    .categories{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.6rem}
+    .chip{background:#f1f5f9;padding:.3rem .6rem;border-radius:999px;font-size:.85rem;color:var(--muted)}
+    footer{padding:2rem 0;margin-top:2rem;background:#fff;color:var(--muted);border-top:1px solid #eef2f6}
+    .footer-grid{display:grid;gap:1rem}
+    @media(min-width:800px){ .footer-grid{grid-template-columns:1fr 1fr 1fr} }
+    .small{font-size:.9rem;color:var(--muted)}
+    .subscribe input{padding:.6rem .8rem;border:1px solid #e6e9ef;border-radius:8px;width:100%;margin-bottom:.6rem}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav" role="navigation" aria-label="Main navigation">
+      <div class="brand">
+        <img src="logo.png" alt="Lordhair logo" />
+        <span>Lordhair Blog</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-card">
+        <h1 id="hero-title">Hair confidence starts here — tips, guides & product picks</h1>
+        <p>Lordhair Blog brings expert advice on hair systems, wigs, styling, maintenance, and lifestyle stories. Whether you're new to hair systems or a long-time wearer, find trusted guides, product reviews, and real-world styling tips.</p>
+        <p>
+          <a class="btn" href="articles.html">Browse Articles</a>
+          &nbsp;
+          <a class="btn" href="about.html" style="background:#0ea5a4">About Lordhair</a>
+        </p>
+        <div style="margin-top:1.4rem">
+          <strong>Featured topic:</strong>
+          <div class="categories">
+            <span class="chip">Hair Systems 101</span>
+            <span class="chip">Styling & Tools</span>
+            <span class="chip">Care & Maintenance</span>
+            <span class="chip">Customer Stories</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card" aria-labelledby="subscribe-heading">
+        <h3 id="subscribe-heading">Join our newsletter</h3>
+        <p class="small">Get weekly styling tips, product launches, and exclusive offers straight to your inbox.</p>
+        <form class="subscribe" action="#" method="post" onsubmit="alert('Replace this with your newsletter endpoint'); return false;">
+          <label for="email" class="small">Email</label>
+          <input id="email" type="email" placeholder="you@example.com" required>
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+        <p class="small" style="margin-top:.6rem">We respect your privacy — unsubscribe anytime.</p>
+      </aside>
+    </section>
+
+    <section aria-labelledby="featured" style="margin-top:1.6rem">
+      <h2 id="featured">Featured Articles</h2>
+      <div class="grid" style="margin-top:.8rem">
+        <article class="card">
+          <img src="images/post1.jpg" alt="Close-up of styled hair system" />
+          <h3><a href="articles/how-to-style-hair-systems.html">How to Style Your Hair System Like a Pro</a></h3>
+          <p class="meta">By Lordhair Team • Oct 10, 2025 • 6 min read</p>
+          <p class="small">Step-by-step styling guide for natural-looking results, including heat tools, product recommendations and finishing tricks.</p>
+        </article>
+
+        <article class="card">
+          <img src="images/post2.jpg" alt="Wig maintenance tools and products" />
+          <h3><a href="articles/wig-maintenance-routine.html">Wig Maintenance: Real Routines That Actually Work</a></h3>
+          <p class="meta">By Guest Author • Sep 22, 2025 • 5 min read</p>
+          <p class="small">A simple weekly and monthly maintenance checklist to keep your wig soft, clean and long-lasting.</p>
+        </article>
+
+        <article class="card">
+          <img src="images/post3.jpg" alt="Before and after hair system transformation" />
+          <h3><a href="articles/customer-spotlight-transformation.html">Customer Spotlight: Real Transformations</a></h3>
+          <p class="meta">By Lordhair • Aug 14, 2025 • 4 min read</p>
+          <p class="small">Real wearer stories, styling choices, and confidence-boosting tips from our community.</p>
+        </article>
+      </div>
+    </section>
+
+    <section style="margin-top:1.4rem;display:flex;flex-direction:column;gap:1rem">
+      <div class="card">
+        <h3>Explore by category</h3>
+        <div class="categories" style="margin-top:.6rem">
+          <a class="chip" href="articles.html#hair-systems">Hair Systems</a>
+          <a class="chip" href="articles.html#wig-care">Wig Care</a>
+          <a class="chip" href="articles.html#styling">Styling</a>
+          <a class="chip" href="articles.html#reviews">Product Reviews</a>
+          <a class="chip" href="articles.html#customer-stories">Customer Stories</a>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr;gap:1rem">
+        <div class="card">
+          <h3>Latest from Lordhair</h3>
+          <ul style="margin:0;padding-left:1.1rem">
+            <li><a href="articles/new-collection-review.html">2025 Collection: What’s New</a></li>
+            <li><a href="articles/assemble-your-first-hair-system.html">Assemble Your First Hair System — A Beginner’s Checklist</a></li>
+            <li><a href="articles/faq-installation.html">Installation FAQ — Common Questions Answered</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Quick Links</h3>
+          <ul style="margin:0;padding-left:1.1rem">
+            <li><a href="about.html">About Lordhair</a></li>
+            <li><a href="contact.html">Customer Support</a></li>
+            <li><a href="/shop">Shop Hair Systems</a></li>
+            <li><a href="privacy.html">Privacy & Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid" aria-label="Footer">
+      <div>
+        <strong>Lordhair Blog</strong>
+        <p class="small">Trusted advice on hair systems, wigs, and hair care. Built for confidence.</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p class="small">Email: <a href="mailto:hello@lordhair.com">hello@lordhair.com</a><br/>Support: <a href="contact.html">contact page</a></p>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <p class="small">
+          <a href="#">Instagram</a> •
+          <a href="#">YouTube</a> •
+          <a href="#">Facebook</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:1rem;display:flex;justify-content:space-between;align-items:center">
+      <p class="small">© <span id="year"></span> Lordhair. All rights reserved.</p>
+      <p class="small"><a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
